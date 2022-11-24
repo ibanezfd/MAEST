@@ -16,16 +16,16 @@ Citation
 
 D. Ibañez, R. Fernandez-Beltran, F. Pla and N. Yokoya, "Masked Auto-Encoding Spectral–Spatial Transformer for Hyperspectral Image Classification," in IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1-14, 2022, Art no. 5542614, doi: 10.1109/TGRS.2022.3217892.
 
-@ARTICLE{9931741,
-  author={Ibañez, Damian and Fernandez-Beltran, Ruben and Pla, Filiberto and Yokoya, Naoto},
-  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={Masked Auto-Encoding Spectral–Spatial Transformer for Hyperspectral Image Classification}, 
-  year={2022},
-  volume={60},
-  number={},
-  pages={1-14},
-  doi={10.1109/TGRS.2022.3217892}
-  }
+    @ARTICLE{9931741,
+      author={Ibañez, Damian and Fernandez-Beltran, Ruben and Pla, Filiberto and Yokoya, Naoto},
+      journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+      title={Masked Auto-Encoding Spectral–Spatial Transformer for Hyperspectral Image Classification}, 
+      year={2022},
+      volume={60},
+      number={},
+      pages={1-14},
+      doi={10.1109/TGRS.2022.3217892}
+      }
 
 
 Danfeng Hong, Zhu Han, Jing Yao, Lianru Gao, Bing Zhang, Antonio Plaza, Jocelyn Chanussot. Spectralformer: Rethinking hyperspectral image classification with transformers, IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2022, vol. 60, pp. 1-15, Art no. 5518615, DOI: 10.1109/TGRS.2021.3130716.
