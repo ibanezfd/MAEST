@@ -40,16 +40,19 @@ Here is an example using the different datasets with the parameters used in the 
 :exclamation: Please kindly be careful on assigning arguments such as `epoches` and `weight_decay`. Also, remember to change the paths for the arguments `output_dir` and `model_path`.
 
 **Indian Pines Dataset**
+
 Pixel-wise MAEST: `python demo.py --dataset='Indian' --epoch=500 --patches=1 --band_patches=3 --mode='ViT' --weight_decay=0 --flag='train'`
 
 Patch-wise MAEST: `python demo.py --dataset='Indian' --epoches=200 --patches=7 --band_patches=3 --mode='ViT' --weight_decay=0 --flag='train'`
 
 **Pavia Dataset**
+
 Pixel-wise MAEST: `python demo.py --dataset='Pavia' --epoch=500 --patches=1 --band_patches=3 --mode='ViT' --weight_decay=0 --flag='train'`
 
 Patch-wise MAEST: `python demo.py --dataset='Pavia' --epoches=80 --patches=7 --band_patches=7 --mode='ViT' --weight_decay=0 --flag='train'`
 
 **Houston Dataset**
+
 Pixel-wise MAEST: `python demo.py --dataset='Houston' --epoch=200 --patches=1 --band_patches=3 --mode='ViT' --weight_decay=0 --flag='train'`
 
 Patch-wise MAEST: `python demo.py --dataset='Houston' --epoches=80 --patches=7 --band_patches=3 --mode='ViT' --weight_decay=0 --flag='train'`
@@ -69,16 +72,19 @@ In the second step the model improves the learned features for the hyperspectral
 :exclamation: For finetuning, in addition to the careful assignament of the previous arguments, include the path of the previously trained reconstruction model `trained_model`. 
 
 **Indian Pines Dataset**
+
 Pixel-wise MAEST: `python demo.py --dataset='Indian' --epoch=260 --patches=1 --band_patches=3 --mode='CAF' --weight_decay=5e-3 --flag='finetune'`
 
 Patch-wise MAEST: `python demo.py --dataset='Indian' --epoches=300 --patches=7 --band_patches=3 --mode='CAF' --weight_decay=5e-3 --flag='finetune'`
 
 **Pavia Dataset**
+
 Pixel-wise MAEST: `python demo.py --dataset='Pavia' --epoch=300 --patches=1 --band_patches=3 --mode='CAF' --weight_decay=5e-3 --flag='finetune'`
 
 Patch-wise MAEST: `python demo.py --dataset='Pavia' --epoches=400 --patches=7 --band_patches=7 --mode='CAF' --weight_decay=5e-3 --flag='finetune'`
 
 **Houston Dataset**
+
 Pixel-wise MAEST: `python demo.py --dataset='Houston' --epoch=500 --patches=1 --band_patches=3 --mode='CAF' --weight_decay=5e-3 --flag='finetune'`
 
 Patch-wise MAEST: `python demo.py --dataset='Houston' --epoches=260 --patches=7 --band_patches=3 --mode='CAF' --weight_decay=5e-3 --flag='finetune'`
@@ -90,16 +96,19 @@ Testing
 To obtain the testing results:
 
 **Indian Pines Dataset**
+
 Pixel-wise MAEST: `python demo.py --dataset='Indian' --patches=1 --band_patches=3 --mode='CAF' --flag='test'`
 
 Patch-wise MAEST: `python demo.py --dataset='Indian' --patches=7 --band_patches=3 --mode='CAF' --flag='test'`
 
 **Pavia Dataset**
+
 Pixel-wise MAEST: `python demo.py --dataset='Pavia' --patches=1 --band_patches=3 --mode='CAF' --flag='test'`
 
 Patch-wise MAEST: `python demo.py --dataset='Pavia' --patches=7 --band_patches=7 --mode='CAF' --flag='test'`
 
 **Houston Dataset**
+
 Pixel-wise MAEST: `python demo.py --dataset='Houston' --patches=1 --band_patches=3 --mode='CAF' --flag='test'`
 
 Patch-wise MAEST: `python demo.py --dataset='Houston' --patches=7 --band_patches=3 --mode='CAF' --flag='test'`
