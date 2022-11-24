@@ -26,6 +26,18 @@ D. Ibañez, R. Fernandez-Beltran, F. Pla and N. Yokoya, "Masked Auto-Encoding Sp
   pages={1-14},
   doi={10.1109/TGRS.2022.3217892}}
 
+Danfeng Hong, Zhu Han, Jing Yao, Lianru Gao, Bing Zhang, Antonio Plaza, Jocelyn Chanussot. Spectralformer: Rethinking hyperspectral image classification with transformers, IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2022, vol. 60, pp. 1-15, Art no. 5518615, DOI: 10.1109/TGRS.2021.3130716.
+
+    @article{hong2022spectralformer,
+      title={Spectralformer: Rethinking hyperspectral image classification with transformers},
+      author={Hong, Danfeng and Han, Zhu and Yao, Jing and Gao, Lianru and Zhang, Bing and Plaza, Antonio and Chanussot, Jocelyn},
+      journal={IEEE Trans. Geosci. Remote Sens.},
+      year={2022},
+      volume={60},
+      pages={1-15},
+      note = {DOI: 10.1109/TGRS.2021.3130716}
+    }
+    
     
 System-specific notes
 ---------------------
